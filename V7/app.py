@@ -254,7 +254,7 @@ CORS(
         }
     }
 )
-app.config['JWT_SECRET_KEY'] = 'SECRET'
+app.config['JWT_SECRET_KEY'] = 'bitirme'
 
 def token_required(f):
     @wraps(f)
@@ -289,7 +289,7 @@ def ask():
     if not user_question:
         return jsonify({"error": "Soru eksik."}), 400
 
-    top_matched_questions = find_top_matching_questions(user_question, top_n=3)
+    top_matched_questions = find_top_matching_questions(user_question, top_n=1)
     answer = generate_comprehensive_answer(user_question, top_matched_questions)
 
     return jsonify({
