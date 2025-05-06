@@ -1,0 +1,132 @@
+[
+    {
+        "id": 1,
+        "question_id": 1,
+        "answer_text": "Flutter, Google tarafından geliştirilen açık kaynaklı bir UI (Kullanıcı Arayüzü) geliştirme kitidir (SDK)."
+    },
+    {
+        "id": 2,
+        "question_id": 1,
+        "answer_text": "Tek bir kod tabanı kullanarak mobil (Android, iOS), web, masaüstü (Windows, macOS, Linux) ve gömülü sistemler için görsel olarak çekici, hızlı ve yerel olarak derlenmiş uygulamalar oluşturmak için kullanılır."
+    },
+    {
+        "id": 3,
+        "question_id": 1,
+        "answer_text": "Kendi yüksek performanslı Skia grafik motorunu kullanarak UI'ı doğrudan çizer."
+    },
+    {
+        "id": 4,
+        "question_id": 2,
+        "answer_text": "State management, bir Flutter uygulamasındaki verilerin (state) durumunu yönetme ve bu durum değiştiğinde kullanıcı arayüzünün (UI) otomatik olarak güncellenmesini sağlama işlemidir."
+    },
+    {
+        "id": 5,
+        "question_id": 2,
+        "answer_text": "Uygulama büyüdükçe veri akışını kontrol altında tutmayı, bileşenler arası veri paylaşımını kolaylaştırmayı ve kodun daha organize olmasını sağlar."
+    },
+    {
+        "id": 6,
+        "question_id": 3,
+        "answer_text": "Dart, Flutter uygulamalarını yazmak için kullanılan nesne yönelimli bir programlama dilidir. Google tarafından geliştirilmiştir."
+    },
+    {
+        "id": 7,
+        "question_id": 3,
+        "answer_text": "Flutter ise Dart dilini kullanan bir UI framework'ü ve SDK'sıdır. Uygulama arayüzünü oluşturmak için gerekli araçları, widget'ları ve kütüphaneleri sağlar."
+    },
+    {
+        "id": 8,
+        "question_id": 3,
+        "answer_text": "Kısacası, Dart 'dil', Flutter ise o dili kullanarak uygulama geliştirmeyi sağlayan 'araç seti'dir."
+    },
+    {
+        "id": 9,
+        "question_id": 4,
+        "answer_text": "Widget'lar, Flutter'da kullanıcı arayüzünü oluşturan temel yapı taşlarıdır. Ekrandaki her şey (butonlar, metinler, resimler, layout'lar vb.) bir widget'tır."
+    },
+    {
+        "id": 10,
+        "question_id": 4,
+        "answer_text": "Flutter, widget'ları bir ağaç yapısında (widget tree) birleştirerek arayüzü oluşturur. Her widget, kendi 'build' metodunda nasıl görüneceğini ve davranacağını tanımlar."
+    },
+    {
+        "id": 11,
+        "question_id": 4,
+        "answer_text": "Temelde iki tür widget vardır: StatelessWidget (durumu değişmeyen) ve StatefulWidget (durumu değişebilen ve bu değişikliklere göre yeniden çizilebilen)."
+    },
+    {
+        "id": 12,
+        "question_id": 5,
+        "answer_text": "Hızlı Geliştirme: Hot Reload özelliği sayesinde kod değişiklikleri anında görülür."
+    },
+    {
+        "id": 13,
+        "question_id": 5,
+        "answer_text": "Etkileyici ve Esnek UI: Zengin widget kütüphanesi ve özelleştirme imkanları sunar."
+    },
+    {
+        "id": 14,
+        "question_id": 5,
+        "answer_text": "Yüksek Performans: Kod doğrudan yerel ARM makine koduna derlendiği için yüksek performans sunar."
+    },
+    {
+        "id": 15,
+        "question_id": 5,
+        "answer_text": "Tek Kod Tabanı: Farklı platformlar için tek bir kod yazarak geliştirme süresini ve maliyetini azaltır."
+    },
+    {
+        "id": 16,
+        "question_id": 6,
+        "answer_text": "Hot Reload: Kod değişikliklerini çalışan uygulamaya enjekte eder, uygulamanın mevcut durumunu (state) korur. Genellikle saniyeler sürer. UI değişiklikleri için idealdir."
+    },
+    {
+        "id": 17,
+        "question_id": 6,
+        "answer_text": "Hot Restart: Uygulamanın mevcut durumunu sıfırlar ve uygulamayı yeniden başlatır. Hot Reload'dan daha yavaştır ama state değişiklikleri veya bazı köklü değişiklikler gerektiğinde kullanılır."
+    },
+    {
+        "id": 18,
+        "question_id": 7,
+        "answer_text": "Flutter'da layout, widget'lar kullanılarak yapılır. `Row` (yatay), `Column` (dikey), `Stack` (üst üste), `Container`, `Padding`, `Center`, `Align`, `Expanded` gibi widget'lar bileşenleri ekranda konumlandırmak ve düzenlemek için kullanılır."
+    },
+    {
+        "id": 19,
+        "question_id": 7,
+        "answer_text": "Widget'lar iç içe geçirilerek karmaşık layout yapıları oluşturulabilir."
+    },
+    {
+        "id": 20,
+        "question_id": 8,
+        "answer_text": "Provider: Basit ve yaygın kullanılan, InheritedWidget üzerine kurulu bir çözümdür."
+    },
+    {
+        "id": 21,
+        "question_id": 8,
+        "answer_text": "Riverpod: Provider'ın geliştiricisi tarafından oluşturulan, daha esnek ve derleme zamanı güvenliği sunan modern bir çözümdür."
+    },
+    {
+        "id": 22,
+        "question_id": 8,
+        "answer_text": "Bloc/Cubit: Özellikle büyük ve karmaşık uygulamalarda state yönetimini ve iş mantığını ayırmak için kullanılan bir desendir."
+    },
+    {
+        "id": 23,
+        "question_id": 8,
+        "answer_text": "GetX: State management, dependency injection ve route management gibi birçok özelliği bir arada sunan bir mikro framework'tür."
+    },
+    {
+        "id": 24,
+        "question_id": 9,
+        "answer_text": "Flutter, UI'ı çizmek için platformun yerel UI bileşenlerini (OEM widgets) kullanmak yerine kendi Skia grafik motorunu kullanır. Bu, platform farklılıklarından kaynaklanan performans sorunlarını ortadan kaldırır."
+    },
+    {
+        "id": 25,
+        "question_id": 9,
+        "answer_text": "Release modunda Dart kodu doğrudan yerel ARM veya x64 makine koduna (Ahead-of-Time - AOT compilation) derlenir, bu da JavaScript köprüsü gibi ara katmanlara ihtiyaç duymadan yüksek hızda çalışmasını sağlar."
+    },
+    {
+        "id": 26,
+        "question_id": 10,
+        "answer_text": "Bir Flutter projesi genellikle şu ana dizinleri içerir: `lib` (Dart kodunun bulunduğu ana dizin, `main.dart` başlangıç dosyasıdır), `android` / `ios` (platforma özgü proje dosyaları), `web`, `windows`, `linux`, `macos` (diğer platformlar için dosyalar), `test` (test kodları), `pubspec.yaml` (proje bağımlılıklarını ve meta verilerini tanımlayan dosya)."
+    }
+]

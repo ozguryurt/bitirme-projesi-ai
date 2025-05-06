@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "question_text": "Flutter nedir?"
+    },
+    {
+        "id": 2,
+        "question_text": "State management ne işe yarar?"
+    },
+    {
+        "id": 3,
+        "question_text": "Dart dili ile Flutter arasındaki fark nedir?"
+    },
+    {
+        "id": 4,
+        "question_text": "Flutter'da widget nasıl çalışır?"
+    },
+    {
+        "id": 5,
+        "question_text": "Flutter'ın avantajları nelerdir?"
+    },
+    {
+        "id": 6,
+        "question_text": "Hot Reload ve Hot Restart arasındaki fark nedir?"
+    },
+    {
+        "id": 7,
+        "question_text": "Flutter'da layout (yerleşim) nasıl yapılır?"
+    },
+    {
+        "id": 8,
+        "question_text": "Popüler Flutter state management çözümleri nelerdir?"
+    },
+    {
+        "id": 9,
+        "question_text": "Flutter neden yüksek performanslıdır?"
+    },
+    {
+        "id": 10,
+        "question_text": "Flutter projesinin temel yapısı nasıldır?"
+    }
+]
